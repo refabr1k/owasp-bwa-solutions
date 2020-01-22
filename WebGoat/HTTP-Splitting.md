@@ -1,6 +1,5 @@
-# GENERAL
-<details><summary> HTTP SPLITTING </summary>
-<p>
+
+## HTTP SPLITTING
 
 ### (part 1)
 Using [urlencoder](https://www.urlencoder.org/) under 'destination newline seperator' select 'Unix'
@@ -52,5 +51,4 @@ Last-Modified: Fri, 1 Jan 2030 00:00:00 GMT
 Content-Length: 4
 <html>Test</html>
 ```
-</p>
-</details>
+

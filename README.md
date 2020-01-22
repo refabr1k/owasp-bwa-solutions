@@ -1,10 +1,8 @@
-# owasp-bwa-solutions
-OWASP Broken Web Application solutions
+# OWASP Broken Web Application (OWASP BWA) solutions
 
-Hello, I watched @NahamSec [twitch interview with @JHaddix](https://www.twitch.tv/nahamsec/videos) and got inspired to do this challenge and training. All walkthroughs and guides which I think may help anyone could be found here. (will be updated as I go through them)
+## Hello, I watched @NahamSec [twitch interview with @JHaddix](https://www.twitch.tv/nahamsec/videos) and got inspired to do this challenge and training. All walkthroughs and guides which I think may help anyone could be found here. (will be updated as I go through them)
 
-# OWASP-BWA download link
-[https://sourceforge.net/projects/owaspbwa/files/1.2/](https://sourceforge.net/projects/owaspbwa/files/1.2/)
+### OWASP-BWA v1.2 download link ---------> [here](https://sourceforge.net/projects/owaspbwa/files/1.2/)
 
-### WebGoat walkthrough [here](../master/WebGoat/README.md) 
+### WebGoat walkthrough ---------> [here](../master/WebGoat) 
  
