@@ -10,7 +10,7 @@
 5. Start! 
 
 ## Walkthroughs
-* [WebGoat](../master/WebGoat) 
+* [WebGoat v5.4](../master/WebGoat) :bulb: there is a newer WebGoat version v8 [here](https://github.com/WebGoat/WebGoat)
  
  
 (will be updated as I go through them)
