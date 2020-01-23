@@ -14,3 +14,5 @@
     - [DOM Injection](/WebGoat/AJAX%20Security/DOM_Injection.md)
     - [XML Injection](/WebGoat/AJAX%20Security/XML_Injection.md)
     - [JSON Injection](/WebGoat/AJAX%20Security/JSON_Injection.md)
+
+(will be updated as I progress)
