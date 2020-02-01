@@ -1,7 +1,7 @@
 # Contents
 
-  - [DOM-Based cross-site-scripting](/WebGoat/AJAX_security.md#1)
-  - [Client Side Filtering](/WebGoat/AJAX_security.md#2)
+  - [DOM-Based cross-site-scripting](/WebGoat/Access_control_flaws.md#1)
+  - [Client Side Filtering](/WebGoat/Access_control_flaws.md#2)
 
 
 ---
