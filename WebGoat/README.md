@@ -6,14 +6,14 @@
 
 * Access Control Flaws
   
-  - [Bypass a Path Based Access Control](../../master/WebGoat/Access_control_flaws.md#1)
-  - [Role Based Access Control](../../master/WebGoat/Access_control_flaws.md#2)
+  - [Bypass a Path Based Access Control](/WebGoat/Access_control_flaws.md)
+  - [Role Based Access Control](/WebGoat/Access_control_flaws.md)
 
 * AJAX Security
   
   - [DOM-Based cross-site-scripting](/WebGoat/AJAX_security.md)
-  - [Client Side Filtering](/WebGoat/AJAX_security.md#2)
-  - [DOM Injection](/WebGoat/AJAX_security.md#3)
+  - [Client Side Filtering](/WebGoat/AJAX_security.md)
+  - [DOM Injection](/WebGoat/AJAX_security.md)
   - [XML Injection](/WebGoat/AJAX_security.md)
   - [JSON Injection](/WebGoat/AJAX_security.md)
   - [Silent Transactions Attacks](/WebGoat/AJAX_security.md)
