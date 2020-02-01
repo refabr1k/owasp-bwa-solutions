@@ -1,6 +1,6 @@
-## HTTP SPLITTING
+# HTTP SPLITTING
 
-### (part 1)
+## (part 1)
 
 Using [urlencoder](https://www.urlencoder.org/) under 'destination newline seperator' select 'Unix'
 
@@ -34,7 +34,7 @@ But you will notice that using the `%0a` works while `%0a%0d` doesn't. This is d
 
 [https://www.netsparker.com/blog/web-security/crlf-http-header/](https://www.netsparker.com/blog/web-security/crlf-http-header/)
 
-### (part 2)
+## (part 2)
 
 Note: inject the `Last-Modified` date to a future date which forces the browser to send an `If-Modified-Since` request header to future requests *encode uri for below*
 
