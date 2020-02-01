@@ -1,3 +1,17 @@
+
+# Contents
+
+  - [DOM-Based cross-site-scripting](/WebGoat/AJAX_security.md#1)
+  - [Client Side Filtering](/WebGoat/AJAX_security.md#2)
+  - [DOM Injection](/WebGoat/AJAX_security.md#3)
+  - [XML Injection](/WebGoat/AJAX_security.md#4)
+  - [JSON Injection](/WebGoat/AJAX_security.md#5)
+  - [Silent Transactions Attacks](/WebGoat/AJAX_security.md#6)
+  - [Dangerous Use of Eval](/WebGoat/AJAX_security.md#7)
+  - [Insecure Client Storage](/WebGoat/AJAX_security.md#8)
+
+---
+
 ## DOM Injection
 
 Using Chrome 'inspect element' edit the html code for disabled button by removing `disabled=""` and the button is now enabled.

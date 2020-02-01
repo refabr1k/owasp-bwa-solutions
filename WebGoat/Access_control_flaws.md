@@ -1,4 +1,12 @@
-## <a href='1'></a> Bypass a Path Based Access Control Scheme
+# Contents
+
+  - [DOM-Based cross-site-scripting](/WebGoat/AJAX_security.md#1)
+  - [Client Side Filtering](/WebGoat/AJAX_security.md#2)
+
+
+---
+
+## <a href="1"></a> Bypass a Path Based Access Control Scheme
 
 Choose a file to view and intercept the HTTP request. I used burp and the follow POST request is seen
 
@@ -13,7 +21,7 @@ eg. From `WebGoat/lesson_plans/English/OffByOne.html` using the `../../` we coul
 
 ---
 
-## <a href='2'></a> Role Based Access Control
+## <a href="2"></a> Role Based Access Control
 
 ## Stage 1: Bypass business layer access control
 
