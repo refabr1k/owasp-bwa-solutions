@@ -1,10 +1,10 @@
-## DOM Injection
+# DOM Injection
 
 Using Chrome 'inspect element' edit the html code for disabled button by removing `disabled=""` and the button is now enabled.
 
 ---
 
-## XML Injection
+# XML Injection
 
 After submitting the given account ID, you will observe that the account balance seem to only review the first 3 rewards (out of total 5). If you check all items and submit them, intercept with burp (or other HTTP intercept tool) you could see the following POST parameters
 
@@ -20,7 +20,7 @@ accountID=836239&check1001=on&check1002=on&check1003=on&check1004=on&check1005=o
 
 ---
 
-## JSON Injection
+# JSON Injection
 
 From: 'BOS'
 
@@ -36,7 +36,7 @@ We observe that it is submitting `%24600` which translates to `$600`. Modify the
 
 ---
 
-## Silent Transactions Attack
+# Silent Transactions Attack
 
 When intercepting HTTP you will notice that GET request is made with all parameters shown eg.
 
@@ -58,7 +58,7 @@ javascript:submitData(123,999999999999999)
 
 ---
 
-## Dangerous Use of Eval
+# Dangerous Use of Eval
 
 We can get XSS for appending this to `Enter your three digit access code:`
 
@@ -68,9 +68,9 @@ We can get XSS for appending this to `Enter your three digit access code:`
 
 ---
 
-## Insecure Client Storage
+# Insecure Client Storage
 
-### Stage 1
+## Stage 1
 
 `Inspect` > `Sources` check javascript folder `clientSideValidation.js`. The Coupons required are actually found below, but they are 'encrypted'. To 'decrypt' the coupons, simply copy the whole block of codes into your developer tool's `console`
 
@@ -114,10 +114,10 @@ Now run the command `decrypted = decrypt(coupons[0]);` ... `decrypted = decrypt(
 
 ![](/WebGoat/screens/coupons.png)
 
-### Stage 2
+## Stage 2
 
 After applying the coupons, update quantity of items and see the total cost add up with the coupon discount being applied. Then right click the value of total cost and select `Inspect` , now modify the value to `$0.0` and click `Purchase` button. 
 
-![](\WebGoat\screens\free.png)
+![](/WebGoat/screens/free.png)
 
 

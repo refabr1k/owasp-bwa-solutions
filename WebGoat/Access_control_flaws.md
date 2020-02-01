@@ -1,4 +1,4 @@
-## Bypass a Path Based Access Control Scheme
+# Bypass a Path Based Access Control Scheme
 
 Choose a file to view and intercept the HTTP request. I used burp and the follow POST request is seen
 
@@ -13,7 +13,7 @@ eg. From `WebGoat/lesson_plans/English/OffByOne.html` using the `../../` we coul
 
 ---
 
-## Role Based Access Control
+# Role Based Access Control
 
 ## Stage 1: Bypass business layer access control
 
