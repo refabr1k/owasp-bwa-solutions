@@ -32,6 +32,6 @@ Modify shopping cart (shopping spree) eg. add `10`quantity for each item and cli
 
 **On Browser 1**
 
-Return back to browser 1 and click`Confirm` to make the purchase of all the items you updated into the cart earlier but for the cheap "Locked-in price".
+Return back to browser 1 and click `Confirm` to make the purchase of all the items you updated into the cart earlier but for the cheap "Locked-in price".
 
 
