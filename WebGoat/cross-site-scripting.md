@@ -24,6 +24,7 @@ Using javascript we can retrieve these values by simply:
 (for password) `document.getElementById("password").value`
 
 Modifying the whole HTML code to
+
 ```html
 <h1>Login required!</h1><br>
 Enter username: <input type="text" id="username"><br>
@@ -39,3 +40,9 @@ function login() {
 }
 </script>
 ```
+
+# Stored XSS (stage 1)
+
+Login in with as Tom and update his profile's street as `<script>alert(1)</script>` . 
+
+Login as Jerry this time and view Tom's profile to see the stored XSS gets triggered.
