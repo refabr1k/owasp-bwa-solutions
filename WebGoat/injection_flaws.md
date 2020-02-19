@@ -50,5 +50,18 @@ SELECT * FROM user_data WHERE last_name = '' or 1 = 1; -- ' Everything behind '-
 ```
 
 # LAB: SQL Injection
+## Stage 1: String SQL Injection
 
+If you tested a classic SQLi command such as `' or 1=1; --` you will notice in burpsuite intercept HTTP that the statement will be trimmed to only `' or 1=1` which is the limit for 8 characters.
+
+Edit the HTTP request again but manually modifying the password field using burpsuite to `asd' or 1=1; --`  to complete the challenge.
+
+## Stage 2: skipped
+
+## Stage 3: Numeric SQL Injection
+Login as Larry with password `larry`
+
+using burpsuite modify HTTP request from `employee_id=101&action=ViewProfile` to `employee_id=101 or 1=1 order by employee_id desc&action=ViewProfile`
+
+## Stage 4: skipped
 
